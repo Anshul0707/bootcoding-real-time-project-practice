@@ -15,7 +15,6 @@ import javax.sql.DataSource;
 @Slf4j
 @AllArgsConstructor
 public class ApplicationConfig {
-
     @Bean
     @ConfigurationProperties("spring.datasource")
     public DataSource DataSource() {
